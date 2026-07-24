@@ -67,13 +67,13 @@ juce_add_plugin(
   PRODUCT_NAME
     ${TREMOLO_PLUGIN_NAME}
   VERSION
-    # TODO: add version
+    0.0.0
   COMPANY_NAME
-    # TODO: add company
+    "Greg Siekman"
   PLUGIN_MANUFACTURER_CODE
-    # TODO: add plugin manufacturer code
+    Gdsi
   PLUGIN_CODE
-    # TODO: add plugin code
+    Trcp
   FORMATS
     Standalone
     AU
@@ -106,7 +106,8 @@ juce_add_binary_data(tremolo_plugin_assets
   SOURCES
     assets/Background.png
     assets/Logo.png
-    # TODO: Add custom font files
+    assets/Inter-Bold.ttf
+    assets/Inter-Medium.ttf
 )
 
 add_library(tremolo::tremolo_plugin_assets ALIAS tremolo_plugin_assets)
