@@ -1,0 +1,32 @@
+[
+  {
+    "label": "CMake: Build Complete Profile",
+    "command": "cmake -B build/ -S complete/",
+    "reveal": "always"
+  },
+  {
+    "label": "CMake: Build Todo Profile",
+    "command": "cmake -B build/ -S todo/",
+    "reveal": "always"
+  },
+  {
+    "label": "CMake: Build",
+    "command": "cmake --build build",
+    "reveal": "always"
+  },
+  {
+    "label": "CMake: Build (Debug)",
+    "command": "cmake --build build/debug -j8",
+    "reveal": "always"
+  },
+  {
+    "label": "CMake: Run Executable",
+    "command": "./build/TremoloCoursePlugin_artefacts",
+    "reveal": "always"
+  },
+  {
+    "label": "CMake: Clean Build Dir",
+    "command": "rm -rf build/",
+    "reveal": "never"
+  }
+]
